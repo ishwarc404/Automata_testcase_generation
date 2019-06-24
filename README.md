@@ -19,7 +19,7 @@ in bash type:
 npm start
 
 
-Code is copyrighted by:
+Ownership of the project is shared between:
 Ishwar Choudhary
 G Shreya
 Anagha Ananth
