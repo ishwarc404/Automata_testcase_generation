@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DFA Analyzer</title>
+	<link rel="stylesheet" href="input_css.css">
+</head>
+<body style="text-align:center">
+
+<h1>DFA ANALYZER</h1>
+<form method="post" action="/sendstring">
+	<h2>ENTER THE QUESTION:</h2>
+	<input type="text" id="string" name="string_entered" autofocus style="width: 500px;height: 40px;">
+	<br>
+	<br>
+	<button style="width: 100px; height: 40px;" type="submit" id="generate">GENERATE</button>
+</form>
+<br>
+<br>
+<form action="/runjflap">
+<button style="width: 100px; height: 40px;" type="submit" id="jflap">RUN JFLAP</button>
+</form>
+	
+</body>
+</html>
+
